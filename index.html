@@ -10,16 +10,22 @@
 
     <div id="left-beauty">
         <div id="darken-box">
-            <div id="logo"></div>
+            <div><img id="icon_logo" src="icon.png" alt="logo icon"></div>
+            <div id="username"><h2>curlscodes</h2></div>
         </div>
         <div id="adjust-box"></div>
-        <div id="photo-credit"></div>
+        <div id="photo-credit">Photo by Jose Duarte on <a href="https://unsplash.com/@jmgduarte">Unsplash</a> </div>
     </div>
     
     <div id="right-information">
 
         <div id="quote-section">
-            <div id="quote"></div>
+            <div id="quote-container">
+                <p class='quote'> Sign up now to get </p>
+                <p class="quote"> the latest news in </p> 
+                <p class="quote"> sign up technology.</p>
+                <p class="quote" id="under-quote"> You <i>know</i> you want to. </p>
+            </div>
         </div>
 
         <div id="form-section">
@@ -28,34 +34,34 @@
                 <form action="example.com/path" method="post">
                     <div id="form-column-1" class="form-column">
                         <div class="form-input">
-                            <label for="first_name">First Name</label>
+                            <label for="first_name">FIRST NAME</label>
                             <input type="text" id="first_name" name="first_name">
                         </div>
 
                         <div class="form-input">
-                            <label for="user_email">Email Address</label>
+                            <label for="user_email">EMAIL ADDRESS</label>
                             <input type="email" id="user_email" name="email">
                         </div>
 
                         <div class="form-input">
-                            <label for="user_password">Password</label>
+                            <label for="user_password">PASSWORD</label>
                             <input type="password" id="user_password" name="password">
                         </div>
                     </div>
 
                     <div id="form-column-2" class="form-column">
                         <div class="form-input">
-                            <label for="last_name">Last Name</label>
+                            <label for="last_name">LAST NAME</label>
                             <input type="text" id="last_name" name="last_name">
                         </div>
 
                         <div class="form-input">
-                            <label for="user_phone">Phone number</label>
-                            <input type="text" id="user_phone" name="phone">
+                            <label for="user_phone">PHONE NUMBER</label>
+                            <input type="number" id="user_phone" name="phone">
                         </div>
 
                         <div class="form-input">
-                            <label for="corfirmed_password">Confirm Password</label>
+                            <label for="corfirmed_password">CONFIRM PASSWORD</label>
                             <input type="password" id="confirmed_password" name="confirmed_password">
                         </div>
                     </div>
@@ -64,7 +70,8 @@
         </div>
 
         <div id="account-section">
-
+            <button>Create Account</button>
+            <p>Already have an account? <a href="example.com/registration">Log in</a></p>
         </div>
 
     </div>
