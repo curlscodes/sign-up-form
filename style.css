@@ -8,7 +8,7 @@ body {
 
 #left-beauty {
     background-color: lightblue;
-    width: 33%;
+    width: 50%;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -30,7 +30,7 @@ body {
 
 #right-information {
     background-color: lightcoral;
-    width: 67%;
+    width: 50%;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -55,7 +55,7 @@ body {
     flex-direction: column;
 }
 
-#form-details {
+form {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -67,7 +67,7 @@ body {
     width: auto;
 }
 
-form {
+.form-input {
     margin: 8px 0px;
 }
 
